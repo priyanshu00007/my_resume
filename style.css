@@ -1,0 +1,53 @@
+*{
+    background-color:black;
+color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.title
+{
+    text-align: center;
+}
+#name
+{
+    float: right;
+    position: absolute;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top:100px;
+    left:300px;
+}
+#img
+{
+    height: 150px;
+    width: 150px;
+    padding: 20px 20px;
+    
+}
+.job-title
+{
+    top:-80px;
+    position: relative;
+    font-size: 30px;
+    left:300px; 
+}
+.details
+{
+    padding: 7px 39px;
+}
+p{
+    font-size: larger;
+    font-weight: 500;
+}
+ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+}
+li{
+    font-size: 20px;
+    text-decoration: none;
+}
